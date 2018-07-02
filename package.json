@@ -1,0 +1,26 @@
+{
+  "name": "@dwcore/dwse",
+  "version": "0.1.1",
+  "description": "dWeb Library For Placing All Data In A dwStream.",
+  "main": "index.js",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "dependencies": {
+    "@dwcore/dwss": "dwcore/dwss#master",
+    "@dwcore/eos": "dwcore/eos#master"
+  },
+  "devDependencies": {
+    "@dwcore/dws2": "dwcore/dws2#master",
+    "standard": "^5.3.1",
+    "tape": "^4.2.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
